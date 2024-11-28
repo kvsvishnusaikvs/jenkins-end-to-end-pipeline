@@ -1,9 +1,5 @@
 # Jenkins End to End Pipeline
 
-## Youtube Video URL
-```
-https://youtu.be/l9mf8K3vBvQ
-```
 ## Install Jenkins
 ```
 helm repo add jenkins https://charts.jenkins.io
