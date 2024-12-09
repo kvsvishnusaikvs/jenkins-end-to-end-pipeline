@@ -260,13 +260,13 @@ pipeline {
   }
   post {
     failure {
-      mail to: 'vikram@gmail.com',
+      mail to: '',
       from: 'jenkinsadmin@gmail.com',
       subject: "Jenkins pipeline has failed for job ${env.JOB_NAME}",
       body: "Check build logs at ${env.BUILD_URL}"
     }
     success {
-      mail to: 'vikram@gmail.com',
+      mail to: '',
       from: 'jenkinsadmin@gmail.com',
       subject: "Jenkins pipeline for job ${env.JOB_NAME} is completed successfully",
       body: "Check build logs at ${env.BUILD_URL}"
